@@ -94,6 +94,7 @@ spec:
       p, role:apps-admin, gpgkeys, delete, *, allow
       g, system:cluster-admins, role:admin
       g, gitopsadmins, role:apps-admin
+      g, admin, role:admin
     scopes: '[groups]'
   redis:
     resources:
